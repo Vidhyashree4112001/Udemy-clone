@@ -89,10 +89,11 @@ body {
 .categories p {
     background-color: #8710d8;
     color: white;
-    padding: 10px;
-    border-radius: 20px;
+    padding: 8px;
+    border-radius: 30px;
     cursor: pointer;
     border: solid 1px #8710d8;
+    
 }
 .categories p:hover{
     transition: 1s;
@@ -238,14 +239,18 @@ body {
 }
 
 /* Media Queries */
-@media screen and (max-width:600px) {
+
+@media screen and (max-width:800px) {
     body{
         font-size: 10px;
     }
+}
+@media screen and (max-width:600px) {
+   
     .course-card{
         flex-basis: 40%; 
     }
-    .categories{
+    .categories {
         display: none;
     }
     .navbar__s2,.navbar__s3{
